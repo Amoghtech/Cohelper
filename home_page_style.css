@@ -35,11 +35,7 @@ body{
     align-items: center;
     font-size: 30px;
 }
-.topnav h3{
-    font-size: 40px;
-    letter-spacing: 5px;
-    padding-right: 20px;
-}
+
 .topnav a.active
 {
     background-color: teal;
@@ -78,7 +74,7 @@ body{
 .text2 {
     font-size: 30px;
     color: teal;
-    font-family: Georgia, serif;
+    
 }
 @keyframes text {
     0% {
