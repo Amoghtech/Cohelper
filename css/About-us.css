@@ -4,7 +4,7 @@
   padding: 10px;
 }
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 .topnav {
   background-color: lightgrey;
@@ -126,110 +126,120 @@ article {
 }
 
 .ngo {
-  height: 40vh;
-  width: 50vw;
+  height: 36vh;
+  width: 35vw;
 }
 
-.patientlogo{
-    
-    height: 40vh;
- 
-    width: 50vw;
+.patientlogo {
+  height: 36vh;
+  width: 35vw;
 }
 
-.doctorlogo{
-    height: 40vh;
- 
-    width: 50vw;
+.doctorlogo {
+  height: 36vh;
+  width: 35vw;
 }
-.patienttext{
-    color:rgb(0, 162, 255);
-    animation: moveinright 1s ease-in-out 1s ;
-    font-size: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-
+.patienttext {
+  color: rgb(0, 162, 255);
+  animation: moveinright 1s ease-in-out 1s;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.line{
-    width:100%;
-    height:1px;
-    background-color: black;
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
 }
-.ngotext{
-    color:rgb(85, 81, 5);
-    animation: moveinleft 1s ease-in-out 1s ;
-    font-size: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-
+.ngotext {
+  color: rgb(85, 81, 5);
+  animation: moveinleft 1s ease-in-out 1s;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.patient{
-    display: flex;
+.patient {
+  display: flex;
   align-items: center;
   margin: 60px 10px;
   justify-content: space-between;
   padding: 2px 2px;
   width: 100%;
 }
-.doctortext{
-    color:rgb(63, 77, 77);
-    animation: moveinleft 1s ease-in-out 1s ;
-font-size: 25px;
-font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+.doctortext {
+  color: rgb(63, 77, 77);
+  animation: moveinleft 1s ease-in-out 1s;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.doctor{
-    display: flex;
-    align-items: center;
-    margin: 60px 10px;
-    justify-content: space-between;
-    padding: 2px 2px;
-    width: 100%;
+.doctor {
+  display: flex;
+  align-items: center;
+  margin: 60px 10px;
+  justify-content: space-between;
+  padding: 2px 2px;
+  width: 100%;
 }
-
 
 @keyframes moveinright {
-    0%{
-        opacity: 0;
-        transform: translateX(150px);
-    }
-    80%{
-        transform: translateX(10px);
-
-    }
-    100%{
-        transform: translateX(0);
-opacity: 1;
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-
 
 @keyframes moveinleft {
-    0%{
-        opacity: 0;
-        transform: translateX(-150px);
-    }
-    80%{
-        transform: translateX(-10px);
-
-    }
-    100%{
-        transform: translateX(0);
-opacity: 1;
-    }
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
-.message{
-    animation: movedown 2.5s ease-in-out 1s ;
-margin-top:12px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.message {
+  animation: movedown 2.5s ease-in-out 1s;
+  margin-top: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-
 
 @keyframes movedown {
-    0%{
-        opacity: 0;
-        transform: translatey(-150px);
-    }
-    100%{
-        transform: translateY(0);
-opacity: 1;
-    }
+  0% {
+    opacity: 0;
+    transform: translatey(-150px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1000px), (max-height: 600px) {
+  .patientlogo {
+    height: 47vh;
+    width: 24vw;
+    margin-left: 191px;
+  }
+  .ngo {
+    height: 47vh;
+    width: 24vw;
+    margin-right: 191px;
+  }
+
+  .doctorlogo {
+    height: 47vh;
+    width: 24vw;
+    margin-right: 191px;
+  }
 }
