@@ -1,16 +1,17 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 10px;
+    padding:0;
 
 }
 body{
-    
-    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    padding-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .topnav
 {
-    background-color: lightgrey;
+   
     overflow: hidden;
 }
 .navbar{
@@ -21,29 +22,26 @@ body{
     justify-content:flex-end;
     float: left;
     padding: 10px 20px;
-    color: teal;
+    color: lightgrey;
     text-decoration: none;
     text-align: center;
     font-size: 24px;
-    font-weight: 900;
-}
-.article_1
-{
-    display: flex;
-
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
+    font-weight: 200;
 }
 
+.topnav h3{
+    font-size: 40px;
+    letter-spacing: 5px;
+    padding-right: 20px;
+}
 .topnav a.active
 {
-    background-color: teal;
-    color: lightgrey;
+    
+    color: teal;
     
 }
 .topnav a:hover{
-    background-color: darkgrey;
+    
     color: black;
 }
 
@@ -63,7 +61,7 @@ body{
 .text1 {
     color: white;
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 8px;
     margin-bottom: 20px;
     background: teal;
@@ -74,7 +72,7 @@ body{
 .text2 {
     font-size: 30px;
     color: teal;
-    
+    font-weight: 300;
 }
 @keyframes text {
     0% {
@@ -91,4 +89,58 @@ body{
         letter-spacing: 8px;
         margin-bottom: -40px;
     }
+}
+.vision img
+{
+    height: 350px;
+    width: 350px;
+    margin-left: 80px;
+    
+}
+.vision h1{
+    font-size: 72px;
+}
+.vision{
+    display: flex;
+    margin-top: 150px;
+}
+.vision p{
+    font-size: 24px;
+    color: slategrey;
+}
+.services img
+{
+    height: 450px;
+    width: 450px;
+    margin-right:80px;
+    
+}
+.services h1{
+    font-size: 72px;
+}
+.services{
+    display: flex;
+    margin-top: 150px;
+}
+.services p{
+    font-size: 24px;
+    color: slategrey;
+}
+.prec img
+{
+    height: 450px;
+    width: 550px;
+    margin-right:80px;
+    
+}
+.prec h1{
+    font-size: 72px;
+}
+.prec{
+    display: flex;
+    margin-top: 150px;
+}
+.prec p{
+    font-size: 24px;
+    color: slategrey;
 }
