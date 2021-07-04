@@ -145,6 +145,8 @@ article {
 .patienttext{
     color:rgb(0, 162, 255);
     animation: moveinright 1s ease-in-out 1s ;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 
 }
 .line{
@@ -155,6 +157,8 @@ article {
 .ngotext{
     color:rgb(85, 81, 5);
     animation: moveinleft 1s ease-in-out 1s ;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 
 }
 .patient{
@@ -166,9 +170,10 @@ article {
   width: 100%;
 }
 .doctortext{
-    color:rgb(1, 88, 88);
+    color:rgb(63, 77, 77);
     animation: moveinleft 1s ease-in-out 1s ;
-
+font-size: 25px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .doctor{
     display: flex;
@@ -213,7 +218,8 @@ opacity: 1;
 
 .message{
     animation: movedown 2.5s ease-in-out 1s ;
-
+margin-top:12px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
